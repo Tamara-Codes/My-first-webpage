@@ -1,0 +1,147 @@
+.header,
+.top-part  {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+    color: #E5E7EB; 
+  }
+  
+.top-part{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+  }
+  
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB
+  }
+
+.main-text{
+    font-weight: extra-bold;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-button{
+    background-color: #3882F6;
+    color: white;
+    width:120px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.top-part-text{
+    width: 400px;
+    padding-right: 50px;
+}
+
+
+.info-title{
+    font-size: 36px; 
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.info-images div {
+    text-align: center; 
+    width: 200px; 
+}
+
+/* .info-images img {
+    display: block; 
+} */
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 100px 150px 100px 150px;
+}
+
+.quote p{
+    width: 800px;
+    margin: auto;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+}
+
+.author{
+    text-align: right;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.last-section{
+    padding: 80px 150px;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    width: 1000px;
+    height: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin:auto;
+    align-items: center;
+}
+
+.call-to-action p{
+    color: #F9FAF8;
+    margin: 0%;
+}
+
+#first-sentence{
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.call-to-action button{
+    outline: 2px solid white;
+    font-weight: 700;
+    color: white;
+} 
+
+.footer{
+    height: 100px;
+    line-height: 70px;
+    background-color: #1f2937;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
